@@ -1,11 +1,22 @@
 ﻿internal class Map
 {
-    private int width;
-    private int height;
+    public int Width { get; }
+    public int Height { get; }
+    public Cell[,] cells;
 
     public Map(int width, int height)
-    {
-        this.width = width;
-        this.height = height;
+    {   //validate
+        Width = width;
+        Height = height;
+
+        cells = new Cell[height, width];
+
+        for (int i = 0; i < height; i++)
+        {
+            for (int j = 0; j < width; j++)
+            {
+                cells[i,j] = new Cell();
+            }
+        }
     }
 }
