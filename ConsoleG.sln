@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34928.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ConsoleG", "ConsoleG", "{D046F4A4-0800-43EF-A3D3-FBAB7A3273F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleGame", "ConsoleGame\ConsoleGame.csproj", "{CCB790F0-819D-4AC1-A207-5A1D311FF0F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CCB790F0-819D-4AC1-A207-5A1D311FF0F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CCB790F0-819D-4AC1-A207-5A1D311FF0F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CCB790F0-819D-4AC1-A207-5A1D311FF0F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CCB790F0-819D-4AC1-A207-5A1D311FF0F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CCB790F0-819D-4AC1-A207-5A1D311FF0F6} = {D046F4A4-0800-43EF-A3D3-FBAB7A3273F7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8106E15C-B762-43F5-8479-3E7459E64768}
+	EndGlobalSection
+EndGlobal
